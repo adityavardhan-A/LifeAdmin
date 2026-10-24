@@ -1,0 +1,27 @@
+LifeAdmin - Smart Personal Document & Deadline Manager
+=====================================================
+
+Needs: Python 3.10 or newer (python.org). No API keys, no internet needed to run.
+
+1) Open a terminal in this folder (the one with app.py).
+
+2) (Optional) create a virtual environment:
+     python -m venv .venv
+     Windows:  .venv\Scripts\activate
+     Mac/Linux: source .venv/bin/activate
+
+3) Install the libraries:
+     pip install -r requirements.txt
+
+4) Start the app:
+     streamlit run app.py
+   It opens in the browser at http://localhost:8501
+
+5) Try it:
+   - Click your name (top right) -> "Load demo documents" to add 24 sample documents
+     (overdue, due today, critical, expiring soon, active, no expiry).
+   - Go to Upload and drag in the files from the demo_upload folder.
+
+Run the tests (optional):   python -m pytest -q tests
+
+Your data is stored locally in data/lifeadmin.db (created on first run).

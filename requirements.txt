@@ -1,0 +1,15 @@
+streamlit>=1.50
+pandas>=2.0
+numpy>=1.26
+plotly>=5.20
+pypdf>=4.0
+# Word / Excel uploads and PDF thumbnails on the Upload screen
+python-docx>=1.1
+openpyxl>=3.1
+pypdfium2>=4.30
+# Optional (OCR for scanned PDFs/images) - also needs the Tesseract binary installed:
+# pytesseract>=0.3
+# Pillow>=10.0
+# Only for generating demo PDFs and running tests:
+reportlab>=4.0
+pytest>=8.0
